@@ -11,7 +11,7 @@ client.on("message", (message) => {
     message.channel.send("TRIPALOSKIIIIIIIIIIIIIIII");
   }
   
-  if (message.content.startsWith("Oui")) {
+  if (message.content.startsWith("!thomas1")) {
     message.channel.send("https://www.youtube.com/watch?v=XZu_SfoXcZ4");
   }
 });
