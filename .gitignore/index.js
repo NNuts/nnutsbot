@@ -6,8 +6,9 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("blyat!");
+  if (message.content.startsWith("Gopnik")) {
+    message.channel.send("https://www.youtube.com/watch?v=QiFBgtgUtfw");
+    message.channel.send("TRIPALOSKIIIIIIIIIIIIIIII");
   }
 });
 
