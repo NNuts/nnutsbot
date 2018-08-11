@@ -14,6 +14,11 @@ client.on("message", (message) => {
   if (message.content.startsWith("!thomas1")) {
     message.channel.send("https://imgur.com/PxZvdmv");
   }
+  
+  if (message.content.startsWith("!nico1")) {
+    message.channel.send("https://imgur.com/a/K7NNNq4");
+  }
+  
 });
 
 client.login("NDU4MzI5OTYwNzEzNjgyOTQ1.DlDlJw.cL7uOynHuO-VxxYv6aq0AG4naHg");
