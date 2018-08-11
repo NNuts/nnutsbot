@@ -19,7 +19,7 @@ client.on("message", (message) => {
     message.channel.send("https://imgur.com/a/K7NNNq4");
   }
   
-  if (message.content.startsWith("!help")) {
+  if (message.content.startsWith("&help")) {
     message.channel.send("Voici les commandes : !thomas1, !nico1, Gopnik");
   }
   
