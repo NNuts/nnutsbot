@@ -12,7 +12,7 @@ client.on("message", (message) => {
   }
   
   if (message.content.startsWith("!thomas1")) {
-    message.channel.send("https://www.youtube.com/watch?v=XZu_SfoXcZ4");
+    message.channel.send("https://imgur.com/PxZvdmv");
   }
 });
 
