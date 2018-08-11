@@ -19,6 +19,10 @@ client.on("message", (message) => {
     message.channel.send("https://imgur.com/a/K7NNNq4");
   }
   
+  if (message.content.startsWith("!help")) {
+    message.channel.send("Voici les commandes : !thomas1, !nico1, Gopnik");
+  }
+  
 });
 
 client.login("NDU4MzI5OTYwNzEzNjgyOTQ1.DlDlJw.cL7uOynHuO-VxxYv6aq0AG4naHg");
